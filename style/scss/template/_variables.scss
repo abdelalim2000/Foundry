@@ -1,0 +1,30 @@
+$main_color: #4ea04e;
+$secondery_color: rgb(5, 12, 29);
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  
+  background-color: rgba(187, 187, 187,.5);
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+}

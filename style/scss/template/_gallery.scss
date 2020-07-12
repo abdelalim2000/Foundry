@@ -1,0 +1,21 @@
+#pages {
+  width: 100%;
+  text-align: center;
+  margin: 50px 0;
+
+  h2 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: lighter;
+    margin-bottom: 20px;
+  }
+  .gallery {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+
+    img {
+      margin: 15px 0;
+    }
+  }
+}
